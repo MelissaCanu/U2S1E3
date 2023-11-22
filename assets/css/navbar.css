@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  color: #552f1f;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fef7e2;
+  border-radius: 50px;
+}
+
+.div1 p,
+.div2 p,
+.div3 p,
+.div4 p,
+.div5 p {
+  background-color: #ffdf7f;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.div1 p,
+.div2 p,
+.div4 p,
+.div5 p {
+  padding: 20px 50px;
+  font-size: 2rem;
+}
+
+.div3 p {
+  font-size: 4rem;
+  text-transform: uppercase;
+  padding: 20px 90px;
+  border-radius: 50px;
+}
+
+.div3 .logo img {
+  max-width: 100px;
+  max-height: 100px;
+}
